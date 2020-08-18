@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Pages</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            scroll-behavior: smooth;
+        }
+        ul{
+            list-style: none;
+            background-color: grey;
+            height: 63px;
+            position: fixed;
+            top: 0;
+            width: 100% ;
+
+        }
+        ul li{
+            display: inline-block;
+            padding-top: 24px;
+        
+        }
+        ul li a{
+            width: 100px;
+            text-align: center;
+         
+            text-decoration: none;
+            padding:24px;
+    
+            font-family: Arial, Helvetica, sans-serif;
+            color: #fff;
+            text-transform: uppercase;
+        }
+        ul li a:hover{
+            background-color: #fff;
+            color: black;
+        }
+        .backimg
+        {   
+            margin-top: 45px;
+            height: 100vh;
+
+            background-image: url("image/emile-perron-xrVDYZRGdw4-unsplash.jpg");
+           
+            margin-bottom: 15px;
+            display: flex;
+            padding: 30px;
+            align-items: left;
+            color: white;
+            font-size: 60px;
+            
+        
+            /* background-image: url("/fullstack-Prok/image/emile-perron-xrVDYZRGdw4-unsplash.jpg") ; */
+            /* background-repeat: no-repeat;
+            background-size: cover; */
+        }
+        
+        h1{
+                font-size: 40px;
+                padding-left: 650px;
+                text-align: justify;
+                padding-top: 5px;
+                padding-bottom: 5px;
+        }
+
+        #container {
+        padding: 15px;
+         width: 700px;
+         height: 600px;
+         margin: 0px auto;
+    }
+
+      #content::after {
+        content: '';
+        display: block;
+        clear: both;
+      }
+
+      #right-sidebar {
+        width: 37% ;
+        /* border: solid blue; */
+        float: right;
+      }
+
+      #project1 {
+        width: 100%;
+        height:189px;
+        background-image: url("image/p1.jpg");
+        background-size: 100%;
+        margin-bottom: 15px;
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        font-size: 40px;
+        color: black;
+      }
+
+      #project2 {
+        width: 100%;
+        height: 189px;
+        background-image: url("image/p2.jpeg");
+        background-size: 100%;
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        font-size: 40px;
+        color: black;
+      }
+
+      #project3 {
+        width: 100%;
+        height: 189px;
+        background-image: url("image/p3.jpg") ;
+        background-size: 100%;
+        border-radius: 15px;
+        margin-top: 15px;
+        display: flex;
+        justify-content: center;
+        font-size: 40px;
+        color:black;
+      }
+
+      #left-sidebar {
+        width: 60%;
+        height: 600px;
+        /* border: solid green; */
+        float: left;
+        background-color: goldenrod;
+        border-radius: 15px;
+      }
+       h2{
+        display: flex;
+        justify-content: center;
+        margin-top: 5px;
+        font-size: 40px;
+        color:rgb(250, 249, 249);
+      }
+      p{
+        display:flex ;
+        justify-content: center;
+        font-size: 20px;
+        color: white;
+        margin:10px ;
+        padding: 10px;
+        text-align: justify;
+      }
+      img{
+        border-radius: 50%;
+      }
+    #card {
+    width: 16%;
+    background-color: rgb(179, 174, 174);
+    padding: 53px;
+    border-radius: 8px;
+    float: left;
+    margin: 20px 15px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+    }
+    #card img {
+    width: 100%;
+    height: 200px;
+    border-radius: 8px;
+    }
+    #card h3 {
+    text-align: center;
+    font-weight: bold;
+    }
+    #card p{
+      font-size: 18px;
+        color: white;
+        margin:6px ;
+        padding: 6px;
+        
+    }
+    #card a {
+    display: block;
+    padding: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(133, 204, 228);
+    color: white;
+    border-radius: 8px;
+    font-weight: medium;
+    align-items: baseline;
+}
+    #card a:hover{
+    background-color: #fff;
+    color: black;
+  }
+    #contact p{
+    font-size: 15px;
+    color: black;
+    text-align: justify;      
+}
+    #contact a{
+
+    text-decoration:none;
+
+    text-align: center;
+    display:flex ;
+    justify-content: center;
+    color: rgb(12, 11, 11);
+}
+    #contact a:hover{
+    color: blue;
+}
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="#"> Home</a></li>
+        <li><a href="#container">About Us</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#card">Technologies</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="backimg"> Practical-8 </div>
+    <br>
+    <div>
+        <h1>About Us</h1>
+    </div>
+    <div id="container">
+        <div id="content">
+          <div id="right-sidebar">
+            <div id="project1">Project-1</div>
+            <div id="project2">Project-2</div>
+            <div id="project3">Project-3</div>
+          </div>
+          <div id="left-sidebar"> 
+            <h2>About Project</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Tnbnbnj ioopkhgb moooiug too dryy niijin cdfghoot the world by your own avoid necessity good work, the workkoofgv of he bnmo toook all apart from the voice which gets you wttoyuu poooint out the various of work this may be get into youe allowance none. Temporibus iusto sunt autem minima illo consectetur ut, asperiores, sit laborum dolorem quisquam in. Beatae voluptates exercitationem maxime vitae accusamus qui laborum a molestiae veritatis ab odio placeat, reiciendis architecto esse rerum nam, sapiente voluptatibus magnam vero quaerat cumque animi fuga fugiat amet! Deleniti perferendis eaque necessitatibus fuga quisquam atque unde, officiis explicabo iste commodi aliquam corporis sed voluptatem laboriosam culpa reprehenderit possimus, magni est accusamus quis eius similique voluptate exercitationem consequuntur. Hic tenetur officia magni ab nisi iste vel, error et id at velit blanditiis enim.</p>
+           </div>     
+          </div>
+      </div>
+      <br>
+      <div id="team">
+          <h1>Team Members</h1>
+          <br>
+          <div style="padding-left: 280px;">
+          <img src="image/1.png" width="220" style="padding: 20px;" /> 
+          <img src="image/2.png" width="220" style="padding: 20px;"  />   
+          <img src="image/9.png" width="220" style="padding:20px ;" />
+          <img src="image/3.png" width="220" style="padding:20px" />
+      </div>
+      </div>
+      <br>
+      <div>
+        <h1>Technologies Used</h1>
+        <div id="card">
+          <img src="image/htmlll.png" />
+          <h3>Introduction to HTML</h3>
+          <P>Lorem ipsum dolor sit amng elit eprehenderit quod ea quas tenetur aliquam repudiandae architecto quo dolorem ducimus, nobis iure voluptates vero dignissimos ioopj illum, quis cum laboriosam, harum accusamus veniam error!</P>
+          <a href="https://www.beta-labs.in/2020/06/introduction-to-html.html">Read More</a>
+         </div>
+         <div id="card">
+           <img src="image/css.jpg"/>
+           <h3>Introduction to CSS</h3>
+           <p>Lorem ipsum dolor tiohg is id porro obcaecati? Quia rem debitis nihil vel modi ullam! Culpa obcaecati blanditiis inventore dolores consequatur omnis? Ducimus explicabo corporis distinctio minus officiis iure omnis magni asperiores</p>
+          <a href="https://www.beta-labs.in/2020/07/introduction-to-css.html" > Read More</a>
+          </div>
+         <div id="card">
+           <img src="image/js.png" />
+           <H3>Introduction to JS</h3>
+            <P>Lorem ipsum o accusamus haruus? Omnis eos numquam reprehenderit odit itaque laborum placeat asperiores dolor culpa molestias sed accusantium et mollitia impedit explicabo delectus debitis nemo, quam neque. Accusantium, facere?</P>
+            <a href="https://www.beta-labs.in/2020/03/introduction-to-expressjs.html" > Read More</a>
+          </div>
+         <div id="card">
+           <img src="image/bootsteap.png" />
+           <h3>Introduction to BOOTSTRAP</h3>
+           <p>Lorem ipsum dolor sit amet ibero consequuntur! Adipisci quo sed aut. Tenetur sequi obcaecati voluptas a blanditiis corrupti ipsam enim eaque? Dolore, dolorum, optio molestiae pariatur id illo amet deleniti deserunt voluptates praesentium magni corrup.</p>
+           <a href="https://www.w3schools.com/bootstrap/" > Read More</a>
+         </div>
+       </div>
+       <BR>
+        <div>
+          <h1>Contact</h1>
+         <div id="contact">
+          <p>This website template is for practical-8</p> 
+           <a href="https://www.beta-labs.in/"> Beta-Labs </a> <br>
+           <a href="#">Back to top</a>
+           <br>
+           </div>
+      
+    
+
+      
+</body>
+</html>
